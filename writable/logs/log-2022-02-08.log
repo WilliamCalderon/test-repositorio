@@ -1,0 +1,139 @@
+CRITICAL - 2022-02-08 10:45:49 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(9): view('login/login')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 10:47:22 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(9): view('login/login')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 13:56:43 --> Call to undefined function App\Controllers\ldap_connect()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD(Array, 'will070512.2008...')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 13:58:41 --> Call to undefined function App\Controllers\ldap_connect()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD(Array, 'will070512.2008...')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 14:01:06 --> Call to undefined function App\Controllers\ldap_connect()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD(Array, 'will070512.2008...')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 14:07:29 --> Call to undefined function App\Controllers\ldap_connect()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD(Array, 'will070512.2008...')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 14:25:13 --> ldap_bind(): Unable to bind to server: Can't contact LDAP server
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): ldap_bind(Resource id #121, 'william.caldero...', 'will130418.2008...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD('william.caldero...', 'will130418.2008...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 14:26:14 --> ldap_bind(): Unable to bind to server: Can't contact LDAP server
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): ldap_bind(Resource id #121, 'william.caldero...', 'will130418.2008...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD('william.caldero...', 'will130418.2008...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 15:18:46 --> ldap_bind(): Unable to bind to server: Invalid credentials
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): ldap_bind(Resource id #121, 'giovanni.flores', '1Fgm290920')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD('giovanni.flores', '1Fgm290920')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 15:23:05 --> ldap_bind(): Unable to bind to server: Can't contact LDAP server
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): ldap_bind(Resource id #121, 'william.caldero...', 'will070512.2008...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD('william.caldero...', 'will070512.2008...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 15:24:10 --> ldap_bind(): Unable to bind to server: Can't contact LDAP server
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): ldap_bind(Resource id #121, 'william.caldero...', 'will070512.2008...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(19): App\Controllers\LoginController->_loginAD('william.caldero...', 'will070512.2008...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 15:33:58 --> Undefined index: displayname
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 15:34:12 --> Undefined index: displayname
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 15:34:50 --> Undefined index: displayname
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 15:35:38 --> Undefined index: displayname
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 16:41:18 --> ldap_bind(): Unable to bind to server: Invalid credentials
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(70): ldap_bind(Resource id #129, 'nvillegas@stps....', 'asdasdasdasdasd...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): App\Controllers\LoginController->_VerificarAD('nvillegas@stps....', 'asdasdasdasdasd...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 16:43:25 --> ldap_bind(): Unable to bind to server: Invalid credentials
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ldap_bind(): Un...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(70): ldap_bind(Resource id #129, 'nvillegas@stps....', 'SDFFASFSDFSDFSD...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(33): App\Controllers\LoginController->_VerificarAD('nvillegas@stps....', 'SDFFASFSDFSDFSD...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

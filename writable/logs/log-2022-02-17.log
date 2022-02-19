@@ -1,0 +1,62 @@
+ERROR - 2022-02-17 11:15:34 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.8.100.174&quot; and accepting
+	TCP/IP connections on port 5432?
+CRITICAL - 2022-02-17 11:15:34 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;10.8.100.174&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\LoginController.php(57): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\LoginController->authenticate()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-17 12:13:42 --> Unable to locate the file to open
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Libraries\PhpCfdi\Certificate.php(84): App\Libraries\PhpCfdi\Certificate::localFileOpen('C:/Users/willi/...')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Libraries\PhpCfdi\Credential.php(65): App\Libraries\PhpCfdi\Certificate::openFile('C:/Users/willi/...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(139): App\Libraries\PhpCfdi\Credential::openFiles('C:/Users/willi/...', 'C:/Users/willi/...', 'Cato1424')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(107): App\Controllers\UsuarioController->EnviarCorreo('william.caldero...', 'Hola mundo', 'Correo de prueb...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-17 12:24:03 --> Unable to locate the file to open
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\phpcfdi\credentials\src\Certificate.php(84): PhpCfdi\Credentials\Certificate::localFileOpen('C:/Users/willi/...')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\phpcfdi\credentials\src\Credential.php(65): PhpCfdi\Credentials\Certificate::openFile('C:/Users/willi/...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(140): PhpCfdi\Credentials\Credential::openFiles('C:/Users/willi/...', 'C:/Users/willi/...', 'Cato1424')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(108): App\Controllers\UsuarioController->EnviarCorreo('william.caldero...', 'Hola mundo', 'Correo de prueb...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-17 13:16:54 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to 10.1.40.11:25 (Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+)
+ERROR - 2022-02-17 13:45:05 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to 10.1.40.11:25 (Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+)
+ERROR - 2022-02-17 13:48:20 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to 10.1.40.11:25 (Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+)
+ERROR - 2022-02-17 13:49:38 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to 10.1.40.11:25 (Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder.
+)
+ERROR - 2022-02-17 16:13:19 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 16:40:37 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 16:45:43 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 16:58:53 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 17:11:57 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 17:36:33 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 17:37:46 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 17:41:47 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-02-17 17:45:56 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 17:51:02 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 17:51:46 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 18:00:18 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 18:02:16 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: Handshake timed out
+ERROR - 2022-02-17 18:14:04 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: Handshake timed out
+ERROR - 2022-02-17 18:14:19 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'
+ERROR - 2022-02-17 18:14:40 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): Peer certificate CN=`*.stps.gob.mx' did not match expected CN=`10.1.32.10'

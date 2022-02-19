@@ -1,0 +1,383 @@
+CRITICAL - 2022-02-09 12:14:57 --> Trying to get property 'estatus_usuario' of non-object
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\usuarioController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\usuarioController->getUsuarios()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 14:14:38 --> constant(): Couldn't find constant URL
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'constant(): Cou...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(8): constant('URL')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(10): view('administrador/u...')
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#8 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-09 14:15:11 --> Undefined variable: arrayUR
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(10): view('administrador/u...')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 14:46:34 --> Undefined variable: arrayUR
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): view('administrador/u...')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 17:23:56 --> Undefined variable: arrayUR
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): view('administrador/u...')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 17:25:04 --> Undefined variable: URs
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): view('administrador/u...')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 17:25:16 --> Undefined variable: URs
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): view('administrador/u...')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 17:25:26 --> Undefined variable: URs
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\usuarios.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/u...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): view('administrador/u...')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-09 18:06:24 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:06:33 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:11:25 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:12:55 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:12:58 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:15:44 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:15:44 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:16:48 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:16:52 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:21:22 --> ErrorException: pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:21:22 --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;:&quot;
+LINE 6: OR &quot;-1&quot; = :-1:
+                  ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:36:22 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;-1&quot; does not exist
+LINE 6: OR &quot;-1&quot; IS NULL
+           ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:36:22 --> pg_query(): Query failed: ERROR:  column &quot;-1&quot; does not exist
+LINE 6: OR &quot;-1&quot; IS NULL
+           ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:38:11 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;:cat_ur&quot;
+LINE 6: OR &quot;:cat_ur&quot;.&quot;cve_ur&quot; = -1
+           ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:38:11 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;:cat_ur&quot;
+LINE 6: OR &quot;:cat_ur&quot;.&quot;cve_ur&quot; = -1
+           ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-09 18:40:26 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;:cat_ur&quot;
+LINE 6: OR &quot;:cat_ur&quot;.&quot;cve_ur&quot; = -1
+           ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-09 18:40:26 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;:cat_ur&quot;
+LINE 6: OR &quot;:cat_ur&quot;.&quot;cve_ur&quot; = -1
+           ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #142, 'SELECT "t_usuar...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT "t_usuar...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "t_usuar...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT "t_usuar...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(39): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(-1)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

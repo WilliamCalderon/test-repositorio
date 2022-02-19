@@ -1,0 +1,134 @@
+CRITICAL - 2022-02-11 11:01:09 --> Class LoginController does not exist
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\Routes.php(71): ReflectionMethod->__construct('LoginController', '_remap')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\BaseCollector.php(224): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1644598869.4236, 0.0643, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(429): CodeIgniter\Filters\Filters->run('', 'after')
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 11:01:18 --> Class LoginController does not exist
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\Routes.php(71): ReflectionMethod->__construct('LoginController', '_remap')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\BaseCollector.php(224): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Debug\Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1644598877.7411, 0.0597, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(429): CodeIgniter\Filters\Filters->run('', 'after')
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 11:02:41 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:03:02 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:04:07 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:04:59 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:05:31 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:07:20 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:08:52 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 11:14:22 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ObtenerUsuario('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 16:15:52 --> Undefined property: App\Controllers\UsuarioController::$reglas
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 16:17:56 --> Undefined property: App\Controllers\UsuarioController::$reglas
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 16:27:30 --> Undefined property: App\Controllers\UsuarioController::$reglas
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 16:39:33 --> Undefined property: App\Controllers\UsuarioController::$reglas
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 16:40:15 --> Undefined property: App\Controllers\UsuarioController::$reglas
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 16:41:55 --> Undefined property: App\Controllers\UsuarioController::$reglas
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 17:02:13 --> Undefined variable: error
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Validation\Views\single.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Validation\Validation.php(490): CodeIgniter\View\View->render('CodeIgniter\\Val...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(79): CodeIgniter\Validation\Validation->listErrors('single')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 17:03:11 --> Undefined variable: error
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Validation\Views\single.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Validation\Validation.php(490): CodeIgniter\View\View->render('CodeIgniter\\Val...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(79): CodeIgniter\Validation\Validation->listErrors('single')
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->AgregarActualizarUsuario('1')
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

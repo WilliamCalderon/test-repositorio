@@ -1,0 +1,139 @@
+CRITICAL - 2022-02-10 11:36:52 --> Call to undefined method stdClass::getIdUsuario()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->getUsuarios()
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 11:39:41 --> Call to undefined method stdClass::getIdUsuario()
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->getUsuarios()
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-10 11:43:14 --> ErrorException: pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;u&quot;
+LINE 1: SELECT ROW_NUMBER () OVER (ORDER BY U.id_usuario) as row, &quot;t...
+                                            ^ in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT ROW_NUMB...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT ROW_NUMB...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ROW_NUMB...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT ROW_NUMB...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(44): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(false)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-10 11:43:14 --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;u&quot;
+LINE 1: SELECT ROW_NUMBER () OVER (ORDER BY U.id_usuario) as row, &quot;t...
+                                            ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #143, 'SELECT ROW_NUMB...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT ROW_NUMB...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ROW_NUMB...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT ROW_NUMB...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Models\UsuarioModel.php(44): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(23): App\Models\UsuarioModel->getDatosUsuarios(false)
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->index()
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#11 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-10 12:15:38 --> Undefined variable: URs
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\modal\modal-datos-usuario.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/m...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(64): view('administrador/m...', Array)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-10 12:15:46 --> Undefined variable: URs
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\modal\modal-datos-usuario.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/m...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(64): view('administrador/m...', Array)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-10 12:18:50 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;estattus_ur&quot; does not exist
+LINE 3: WHERE &quot;estattus_ur&quot; = 1
+              ^
+HINT:  Perhaps you meant to reference the column &quot;cat_ur.estatus_ur&quot;. in C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #134, 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(63): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-10 12:18:51 --> pg_query(): Query failed: ERROR:  column &quot;estattus_ur&quot; does not exist
+LINE 3: WHERE &quot;estattus_ur&quot; = 1
+              ^
+HINT:  Perhaps you meant to reference the column &quot;cat_ur.estatus_ur&quot;.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(135): pg_query(Resource id #134, 'SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(63): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#9 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#10 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-10 12:20:23 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 12:21:08 --> Undefined variable: Sedes
+#0 C:\xampp\htdocs\Codeigniter\SISIL\app\Views\administrador\modal\modal-datos-usuario.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('administrador/m...', Array, true)
+#4 C:\xampp\htdocs\Codeigniter\SISIL\app\Controllers\UsuarioController.php(65): view('administrador/m...', Array)
+#5 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#6 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#7 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-10 17:58:51 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('1')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 17:59:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 18:00:27 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\UsuarioController->ModalAgregarActualizar('0')
+#1 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+#2 C:\xampp\htdocs\Codeigniter\SISIL\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter\SISIL\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
