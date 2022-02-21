@@ -4,7 +4,7 @@ namespace App\Controllers;
 //
 //require_once dirname(__DIR__,2).'\vendor\autoload.php';
 use App\Models\{UsuarioModel, UnidadResponsableModel, SedeModel};
-//use PhpCfdi\Credentials\Credential;
+//use PhpCfdi\Credentials\Credential; 
 
 class UsuarioController extends BaseController
 {
