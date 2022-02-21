@@ -7,6 +7,7 @@ class LoginController extends BaseController
 {    //Cambio 1, 2, 3, 4, 5, 6, 7
     public function index()
     {
+        $i = 1000000;
         if(session()->get("id_usuario") != null){
             if(session()->get("role") == "admin"){
                 return redirect()->route('administrador');
