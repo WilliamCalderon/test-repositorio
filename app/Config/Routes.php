@@ -93,6 +93,8 @@ $routes->get('/getOrgDocto/(:num)', 'OrgDoctosController::ObtenerOrgDocto/$1');
 $routes->get('/ObtenerSeccionDoctos/(:num)', 'OrgDoctosController::ObtenerSeccionDoctos/$1');
 $routes->get('/ObtenerSeccionEditar/(:num)', 'OrgDoctosController::ObtenerSeccionEditar/$1');
 $routes->post('/AgregarActualizarOrg/(:num)', 'OrgDoctosController::AgregarActualizar/$1');
+$routes->post('/AgregarPutin/(:num)', 'OrgDoctosController::AgregarActualizar/$1');
+$routes->post('/AgregarChichis/(:num)', 'OrgDoctosController::AgregarActualizar/$1');
 
 /*
  * --------------------------------------------------------------------
