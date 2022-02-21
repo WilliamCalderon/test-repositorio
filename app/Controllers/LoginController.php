@@ -6,7 +6,7 @@ use App\Models\UsuarioModel;
 class LoginController extends BaseController
 {    
     public function index()
-    {   
+    {
         if(session()->get("id_usuario") != null){
             if(session()->get("role") == "admin"){
                 return redirect()->route('administrador');
