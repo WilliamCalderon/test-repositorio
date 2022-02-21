@@ -31,8 +31,14 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/usuarios', 'usuarioController::index');
+$routes->get('/', 'LoginController::index');
+$routes->get('logout', 'LoginController::logout');
+$routes->get('/administrador', 'AdminHomeController::index');
+$routes->get('/usuarios', 'UsuarioController::index');
+$routes->get('/ModalUsuario/(:num)', 'UsuarioController::ModalAgregarActualizar/$1');
+$routes->add('/getUsuarios', 'UsuarioController::getUsuarios');
+$routes->get('/getUsuario/(:num)', 'UsuarioController::ObtenerUsuario/$1');
+$routes->post('/AgregarActualizarUsuario/(:num)', 'UsuarioController::AgregarActualizarUsuario/$1');
 $routes->get('/dependencia', 'DependenciaController::index');
 $routes->get('/ModalDependencia/(:num)', 'DependenciaController::ModalAgregarActualizar/$1');
 $routes->get('/getDependencia/(:num)', 'DependenciaController::ObtenerDependencia/$1');
