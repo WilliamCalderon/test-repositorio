@@ -4,7 +4,7 @@ namespace App\Controllers;
 use App\Models\UsuarioModel;
 
 class LoginController extends BaseController   
-{    //Cambio 1, 2
+{    //Cambio 1, 2, 3
     public function index()
     {
         if(session()->get("id_usuario") != null){
