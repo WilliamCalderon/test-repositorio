@@ -16,7 +16,7 @@ class LoginController extends BaseController
             }
         }  
 
-        return view('login/login'); ///////
+        return view('login/login'); ///////chavi 2
     }
 
     public function authenticate()
